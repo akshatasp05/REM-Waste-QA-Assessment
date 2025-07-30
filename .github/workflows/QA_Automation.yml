@@ -3,9 +3,8 @@ name: QA Automation Pipeline
 
 on:
   push:
-    branches: [ main, develop ]
-  pull_request:
-    branches: [ main, develop ]
+    branches: [ main, integration ]
+
   workflow_dispatch: # Allow manual trigger
 
 jobs:
